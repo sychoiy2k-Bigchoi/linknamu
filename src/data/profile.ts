@@ -12,11 +12,11 @@ export type Profile = {
   links: LinkItem[];
 };
 
-// TODO: 보여 주기용 더미 값입니다. 실제 사진·소개·링크 주소로 교체하세요.
+// TODO: 링크 주소는 아직 보여 주기용 더미 값입니다. 실제 주소로 교체하세요.
 export const profile: Profile = {
   name: "최수영",
-  bio: "SAP 컨설턴트",
-  image: "/profile-dummy.svg",
+  bio: "30년 경력의 SAP 관리회계(CO) · FM-BCS · IM 프리랜스 컨설턴트",
+  image: "/profile.jpg",
   links: [
     { id: "sap-community", title: "SAP Community", url: "https://community.sap.com/" },
     { id: "github", title: "GitHub", url: "https://github.com/" },
